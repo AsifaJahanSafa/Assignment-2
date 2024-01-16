@@ -199,3 +199,70 @@ text-align: center;}
 
 /* Our Popular Tour end */
 
+/* Destination_container */
+
+.Destination_container{
+    display: flex;
+   
+    flex-direction: column;
+   /* border:2px solid aqua; */
+    align-items: center;
+    max-width: 1200px;
+    max-height: 500px;
+    
+    margin:0px auto;
+    margin-top:80px
+}
+
+.Destination_title{
+    max-width: 700px;
+}
+.destination_image_container{
+    max-width: 1200px;
+    max-height: 800px;
+    margin:0px auto;
+  /* border:1px solid red; */
+ display: flex;
+ flex-direction: column;
+  
+ 
+  
+}
+.destination_image_container img{width: 100%;}
+.row1,.row2,.row3{
+width:1200px;
+
+display:flex;
+
+gap:20px;
+
+
+}
+
+.row {
+    position: relative;
+   
+   
+}
+
+.row h3{
+    position: absolute;
+    margin:100px 150px;
+    color:white
+  
+   
+}
+
+.Destination_title{width:700px;
+height: 300px;
+/* border:1px solid red;  */
+padding:20px auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;}
+
+.Destination_title p{
+    padding:20px 0
+}
